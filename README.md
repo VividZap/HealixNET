@@ -1,6 +1,8 @@
 # Healix.NET - Self-Healing SDK for .NET Apps
 
 <img src="https://github.com/VividZap/HealixNET/files/Logo.svg" width="180" alt="Healix.NET Logo"/>
+<img width="1280" height="1280" alt="Logo" src="https://github.com/user-attachments/assets/694890ac-da11-4d43-bd9b-6ae66025bba5" />
+
 
 > **Healix.NET** empowers your .NET applications with automatic error recovery and resilience.  
 > Plug-and-play SDK to detect, log, and heal from runtime failures.
@@ -41,6 +43,7 @@ int result = await manager.ExecuteWithHealing<int>(async () => {
 ### 3. Dashboard
 
 Use the WPF app to visualize healing events, manage policies, and see analytics.
+<img width="884" height="594" alt="image" src="https://github.com/user-attachments/assets/8e8b85e9-7491-4200-aa60-d13b22d8f9d2" />
 
 ---
 
