@@ -1,6 +1,6 @@
 # Healix.NET - Self-Healing SDK for .NET Apps
 
-<img src="[logo.svg](https://github.com/VividZap/HealixNET/files/Logo.svg)" alt="Healix.NET Logo" width="180"/>
+<img src="https://github.com/VividZap/HealixNET/files/Logo.svg" width="180" alt="Healix.NET Logo"/>
 
 > **Healix.NET** empowers your .NET applications with automatic error recovery and resilience.  
 > Plug-and-play SDK to detect, log, and heal from runtime failures.
