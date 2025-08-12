@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net9.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <Description>Healix.NET - Self-Healing SDK for .NET apps</Description>
+        <PackageTags>self-healing;dotnet;recovery;error-handling;resilience</PackageTags>
+        <RepositoryUrl>https://github.com/VividZap/healixnet</RepositoryUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>1.0.0</Version>
+        <Authors>VividZap</Authors>
+        <Company>VividZap</Company>
+        <PackageId>HealixNET</PackageId>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="SelfHealingSDK\Logging\" />
+    </ItemGroup>
+
+</Project>

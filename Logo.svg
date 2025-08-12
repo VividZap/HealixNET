@@ -1,0 +1,7 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="180" height="180" rx="40" fill="#2E3A4B"/>
+    <circle cx="90" cy="90" r="60" fill="#4FC3F7"/>
+    <path d="M60 120 Q90 60 120 120" stroke="#fff" stroke-width="8" fill="none"/>
+    <text x="50%" y="85%" text-anchor="middle" font-family="Segoe UI" font-size="32" fill="#fff" font-weight="bold">Healix</text>
+    <text x="50%" y="98%" text-anchor="middle" font-family="Segoe UI" font-size="18" fill="#4FC3F7" font-weight="bold">.NET</text>
+</svg>
