@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>HealixNET</id>
+    <version>1.0.0</version>
+    <authors>VividZap</authors>
+    <description>Healix.NET - Self-Healing SDK for .NET apps</description>
+    <tags>self-healing dotnet recovery error-handling resilience</tags>
+    <repository type="git" url="https://github.com/VividZap/healixnet" />
+    <dependencies>
+      <group targetFramework="net9.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net9.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Administrator\RiderProjects\SelfHealingPlatform\SelfHealingPlatform\bin\Release\net9.0-windows\SelfHealingPlatform.runtimeconfig.json" target="lib\net9.0-windows7.0\SelfHealingPlatform.runtimeconfig.json" />
+    <file src="C:\Users\Administrator\RiderProjects\SelfHealingPlatform\SelfHealingPlatform\bin\Release\net9.0-windows\SelfHealingPlatform.dll" target="lib\net9.0-windows7.0\SelfHealingPlatform.dll" />
+  </files>
+</package>
