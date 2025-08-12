@@ -15,7 +15,6 @@ namespace SelfHealingSDK.Policies
 
         public bool CanHandle(Exception ex, string context)
         {
-            // يمكنك تخصيص نوع الأخطاء التي تعالجها السياسة
             return true;
         }
 
@@ -27,16 +26,14 @@ namespace SelfHealingSDK.Policies
                 try
                 {
                     attempts++;
-                    // هذه مجرد مثال، يجب تمرير الفانكشن من SelfHealingManager
-                    // يمكنك تعديل المنهجية بحيث تمرر الفانكشن هنا لإعادة التنفيذ فعليًا
-                    // أو تحفظ الفانكشن المرجعية في HealingEvent وتعيد تنفيذها
+
                 }
                 catch
                 {
-                    // تجاهل الاستثناءات
                 }
             }
             return (false, default(T));
         }
     }
+
 }
